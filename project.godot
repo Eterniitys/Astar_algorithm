@@ -12,12 +12,12 @@ _global_script_classes=[ {
 "base": "Reference",
 "class": "AstarNode",
 "language": "GDScript",
-"path": "res://AstarNode.gd"
+"path": "res://src/AstarNode.gd"
 }, {
 "base": "Reference",
 "class": "PQueue",
 "language": "GDScript",
-"path": "res://PQueue.gd"
+"path": "res://src/PQueue.gd"
 } ]
 _global_script_class_icons={
 "AstarNode": "",
@@ -27,7 +27,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Astar"
-run/main_scene="res://Astar.tscn"
+run/main_scene="res://scene/Astar.tscn"
 config/icon="res://icon.png"
 
 [display]
